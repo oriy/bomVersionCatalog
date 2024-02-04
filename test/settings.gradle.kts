@@ -16,6 +16,7 @@ dependencyResolutionManagement {
             fromBomAlias("jacksonBom")
             // fromBom("org.springframework.boot:spring-boot-dependencies:2.5.0")
             fromBomAlias("springBom")
+            // fromBomAliasesFilter { alias -> alias.endsWith("Bom") }
         }
     }
 }
